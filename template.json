@@ -1,0 +1,107 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base_attributes": {
+        "weapon_skill": {
+          "value": 0,
+          "min": 0
+        },
+        "ballistic_skill": {
+          "value": 0,
+          "min": 0
+        },
+
+        "strength": {
+          "value": 0,
+          "min": 0
+        },
+
+        "toughness": {
+          "value": 0,
+          "min": 0
+        },
+
+        "agility": {
+          "value": 0,
+          "min": 0
+        },
+
+        "intelligence": {
+          "value": 0,
+          "min": 0
+        },
+
+        "willpower": {
+          "value": 0,
+          "min": 0
+        },
+
+        "fellowshi": {
+          "value": 0,
+          "min": 0
+        },
+        "attacks": {
+          "value": 1,
+          "min": 0
+        },
+
+        "wounds": {
+          "value": 0,
+          "min": 0
+        },
+
+        "movement": {
+          "value": 4,
+          "min": 0
+        },
+
+        "magic": {
+          "value": 0,
+          "min": 0
+        }
+      }
+    },
+    "character": {
+      "templates": ["base_attributes"],
+      "character_attributes": {
+        "insanity_points": {
+          "value": 0,
+          "min": 0
+        },
+        "biography": ""
+      }
+    },
+    "npc": {
+      "templates": ["base_attributes"],
+      "npc_attributes": {
+        "slaughter_margin": ""
+      }
+    }
+  },
+  "Item": {
+    "types": ["trapping", "spell", "talent", "ability"],
+    "templates": {
+      "base_item": {
+        "description": ""
+      }
+    },
+    "trapping": {
+      "templates": ["base_item"],
+      "quantity": 1,
+      "weight": 0
+    },
+    "spell": {
+      "templates": ["base_item"],
+      "casting_number": 1,
+      "casting_time": "",
+      "ingredient": ""
+    },
+    "talent": {
+      "templates": ["base_item"]
+    },
+    "ability": {
+      "templates": ["base_item"]
+    }
+  }
+}

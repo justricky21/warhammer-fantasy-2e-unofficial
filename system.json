@@ -1,0 +1,30 @@
+{
+  "id": "warhammer-fantasy-2e-unofficial",
+  "title": "Warhammer Fantasy Roleplay 2e",
+  "description": "The unofficial Warhammer Fantasy Roleplay Second Edition game aid",
+  "authors": [{ "name": "justricky21", "discord": "theactualricky" }],
+  "url": "https://github.com/justricky21/wfrp2e",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/justricky21/wfrp2e/issues/new",
+  "changelog": "CHANGELOG.md",
+  "media": "",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 12,
+    "verified": "12.331"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "", //TODO
+  "download": "", //TODO
+  "primaryTokenAttribute": "wounds"
+}
