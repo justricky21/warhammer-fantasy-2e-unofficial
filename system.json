@@ -24,7 +24,6 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "", //TODO
-  "download": "", //TODO
+  "manifest": "https://github.com/justricky21/wfrp2e/blob/main/system.json",
   "primaryTokenAttribute": "wounds"
 }
