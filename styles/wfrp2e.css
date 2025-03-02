@@ -1,0 +1,199 @@
+/* Basic Styling for WFRP2E Character Sheet */
+
+.warhammer-fantasy-2e.sheet {
+  min-width: 560px;
+  min-height: 420px;
+  font-family: "Signika", sans-serif;
+}
+
+.warhammer-fantasy-2e .window-content {
+  background: #f0f0f0;
+}
+
+.warhammer-fantasy-2e .sheet-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #8a0303;
+  padding-bottom: 5px;
+}
+
+.warhammer-fantasy-2e .profile-img {
+  flex: 0 0 100px;
+  height: 100px;
+  margin-right: 10px;
+  border: 2px solid #000;
+}
+
+.warhammer-fantasy-2e .header-fields {
+  flex: 1;
+}
+
+.warhammer-fantasy-2e .charname {
+  height: 50px;
+  padding: 0px;
+  margin: 5px 0;
+  border-bottom: 0;
+}
+
+.warhammer-fantasy-2e .charname input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 1px solid #999;
+}
+
+/* Sheet Tabs */
+.warhammer-fantasy-2e .sheet-tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #8a0303;
+}
+
+.warhammer-fantasy-2e .sheet-tabs .item {
+  flex: 0 0 auto;
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px 5px 0 0;
+  background: rgba(138, 3, 3, 0.1);
+  border: 1px solid #8a0303;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.warhammer-fantasy-2e .sheet-tabs .item.active {
+  background: rgba(138, 3, 3, 0.5);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Attributes */
+.warhammer-fantasy-2e .attributes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.warhammer-fantasy-2e .resource {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.warhammer-fantasy-2e .box-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #8a0303;
+  border-bottom: 1px solid #8a0303;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.warhammer-fantasy-2e .attribute-item {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warhammer-fantasy-2e .attribute-item label {
+  font-weight: bold;
+  flex: 1;
+}
+
+.warhammer-fantasy-2e .attribute-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.warhammer-fantasy-2e .attribute-value input {
+  width: 50px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.warhammer-fantasy-2e .roll-button {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 12px;
+  background: rgba(138, 3, 3, 0.8);
+  color: white;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.warhammer-fantasy-2e .roll-button:hover {
+  background: #8a0303;
+}
+
+/* Biography */
+.warhammer-fantasy-2e .biography {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.warhammer-fantasy-2e .biography textarea {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+/* Chat message styling for rolls */
+.wfrp2e-roll {
+  padding: 10px;
+  background: #f0f0e0;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.wfrp2e-roll .roll-result {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.wfrp2e-roll .roll-result.success {
+  background: rgba(0, 100, 0, 0.2);
+  border: 1px solid #060;
+}
+
+.wfrp2e-roll .roll-result.failure {
+  background: rgba(100, 0, 0, 0.2);
+  border: 1px solid #600;
+}
+
+.wfrp2e-roll .roll-margin {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wfrp2e-roll .result-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.wfrp2e-roll .dice-total {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.wfrp2e-roll .target-number {
+  font-weight: bold;
+}

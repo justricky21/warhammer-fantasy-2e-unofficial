@@ -4,61 +4,49 @@
     "templates": {
       "base_attributes": {
         "weapon_skill": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
         "ballistic_skill": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "strength": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "toughness": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "agility": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "intelligence": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "willpower": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
-        "fellowshi": {
-          "value": 0,
-          "min": 0
+        "fellowship": {
+          "value": 0
         },
         "attacks": {
-          "value": 1,
-          "min": 0
+          "value": 1
         },
 
         "wounds": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
 
         "movement": {
-          "value": 4,
-          "min": 0
+          "value": 4
         },
 
         "magic": {
-          "value": 0,
-          "min": 0
+          "value": 0
         }
       }
     },
@@ -66,8 +54,7 @@
       "templates": ["base_attributes"],
       "character_attributes": {
         "insanity_points": {
-          "value": 0,
-          "min": 0
+          "value": 0
         },
         "biography": ""
       }

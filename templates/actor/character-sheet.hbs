@@ -1,0 +1,235 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{actor.img}}"
+      data-edit="img"
+      title="{{actor.name}}"
+    />
+    <div class="header-fields">
+      <h1 class="charname"><input
+          name="name"
+          type="text"
+          value="{{actor.name}}"
+          placeholder="Name"
+        /></h1>
+    </div>
+  </header>
+
+  {{! Sheet Tab Navigation }}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="stats">Stats</a>
+    <a class="item" data-tab="background">Background</a>
+  </nav>
+
+  {{! Sheet Body }}
+  <section class="sheet-body">
+    {{! Stats Tab }}
+    <div class="tab" data-group="primary" data-tab="stats">
+      <div class="attributes grid grid-2col">
+        <div class="resource">
+          <h4 class="box-title">Main Characteristics</h4>
+          <div class="attributes-group">
+            {{! Main Attributes }}
+            <div class="attribute-item">
+              <label for="data.weapon_skill.value">Weapon Skill (WS)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.weapon_skill.value"
+                  value="{{system.weapon_skill.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="weapon_skill"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.ballistic_skill.value">Ballistic Skill (BS)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.ballistic_skill.value"
+                  value="{{system.ballistic_skill.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="ballistic_skill"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.strength.value">Strength (S)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.strength.value"
+                  value="{{system.strength.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="strength"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.toughness.value">Toughness (T)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.toughness.value"
+                  value="{{system.toughness.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="toughness"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.agility.value">Agility (Ag)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.agility.value"
+                  value="{{system.agility.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="agility"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.intelligence.value">Intelligence (Int)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.intelligence.value"
+                  value="{{system.intelligence.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="intelligence"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.willpower.value">Willpower (WP)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.willpower.value"
+                  value="{{system.willpower.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="willpower"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.fellowship.value">Fellowship (Fel)</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.fellowship.value"
+                  value="{{system.fellowship.value}}"
+                  data-dtype="Number"
+                />
+                <button class="roll-button" data-roll="fellowship"><i
+                    class="fas fa-dice"
+                  ></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource">
+          <h4 class="box-title">Secondary Characteristics</h4>
+          <div class="attributes-group">
+            <div class="attribute-item">
+              <label for="data.attacks.value">Attacks</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.attacks.value"
+                  value="{{system.attacks.value}}"
+                  data-dtype="Number"
+                />
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.wounds.value">Wounds</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.wounds.value"
+                  value="{{system.wounds.value}}"
+                  data-dtype="Number"
+                />
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.movement.value">Movement</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.movement.value"
+                  value="{{system.movement.value}}"
+                  data-dtype="Number"
+                />
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label for="data.magic.value">Magic</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.magic.value"
+                  value="{{system.magic.value}}"
+                  data-dtype="Number"
+                />
+              </div>
+            </div>
+
+            <div class="attribute-item">
+              <label
+                for="data.character_attributes.insanity_points.value"
+              >Insanity Points</label>
+              <div class="attribute-value">
+                <input
+                  type="text"
+                  name="system.character_attributes.insanity_points.value"
+                  value="{{system.character_attributes.insanity_points.value}}"
+                  data-dtype="Number"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{! Background Tab }}
+    <div class="tab" data-group="primary" data-tab="background">
+      <div class="biography">
+        <h4 class="box-title">Biography</h4>
+        <textarea
+          name="system.character_attributes.biography"
+        >{{system.character_attributes.biography}}</textarea>
+      </div>
+    </div>
+  </section>
+</form>

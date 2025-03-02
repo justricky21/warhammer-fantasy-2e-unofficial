@@ -1,0 +1,22 @@
+{
+  "WFRP2E.AttributeWS": "Weapon Skill",
+  "WFRP2E.AttributeBS": "Ballistic Skill",
+  "WFRP2E.AttributeS": "Strength",
+  "WFRP2E.AttributeT": "Toughness",
+  "WFRP2E.AttributeAg": "Agility",
+  "WFRP2E.AttributeInt": "Intelligence",
+  "WFRP2E.AttributeWP": "Willpower",
+  "WFRP2E.AttributeFel": "Fellowship",
+  "WFRP2E.AttributeA": "Attacks",
+  "WFRP2E.AttributeW": "Wounds",
+  "WFRP2E.AttributeM": "Movement",
+  "WFRP2E.AttributeMag": "Magic",
+  "WFRP2E.AttributeInsanity": "Insanity Points",
+
+  "WFRP2E.TabStats": "Stats",
+  "WFRP2E.TabBackground": "Background",
+
+  "WFRP2E.MainCharacteristics": "Main Characteristics",
+  "WFRP2E.SecondaryCharacteristics": "Secondary Characteristics",
+  "WFRP2E.Biography": "Biography"
+}
